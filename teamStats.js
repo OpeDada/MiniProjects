@@ -37,5 +37,8 @@ const team = {
   },
 };
 
+team.addPlayer("Bugs", "Bunny", 76);
+console.log(team._players);
+
 team.addGame("Titans", 100, 98);
 console.log(team.games);
